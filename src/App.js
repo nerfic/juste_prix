@@ -38,7 +38,7 @@ function App() {
     <div className="App">
       <header className="App-header">
       <h3>Le juste prix</h3>
-      <p>Tu dois trouver le juste prix compris entre 0 et 100 en 30 secondes!</p>
+      <p>Tu dois trouver le juste prix compris entre 0 et 100!</p>
       {message}
       <input type='number' placeholder='' value={solution} onChange={change}/>
       <br/>
