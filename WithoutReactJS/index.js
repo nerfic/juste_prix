@@ -22,7 +22,6 @@ function jeux () {
     if (result == nb) {
         alert("Bravo, le nombre était "+ nb +". T'as gagné en "+ nb_coup +" coup(s)");
         document.getElementById('restart').style.display = 'block';
-
     }
 }
 
