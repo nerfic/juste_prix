@@ -1,5 +1,5 @@
 var nb = Math.floor(100*Math.random());
-var nb_coup = 1;
+var nb_coup = 0;
 
 document.getElementById('restart').style.display = 'none';
 document.getElementById('moins').style.display = 'none';
@@ -22,6 +22,7 @@ function jeux () {
     if (result == nb) {
         alert("Bravo, le nombre était "+ nb +". T'as gagné en "+ nb_coup +" coup(s)");
         document.getElementById('restart').style.display = 'block';
+
     }
 }
 
